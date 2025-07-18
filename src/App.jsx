@@ -8,7 +8,7 @@ const mockData = [
   {
     id: 1,
     isDone: false,
-    content: "Learn React",
+    content: "Learn Electron",
     date: new Date().getTime(),
   },
   {
