@@ -4,15 +4,6 @@ import Header from "./components/Header";
 import List from "./components/List";
 import { useState, useRef, useReducer, useCallback } from "react";
 
-const mockData = [
-  {
-    id: 0,
-    isDone: false,
-    content: "Learn React",
-    date: new Date().getTime(),
-  },
-];
-
 function reducer(state, action) {
   switch (action.type) {
     case "ADD_TODO": {
