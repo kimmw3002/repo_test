@@ -6,12 +6,6 @@ import { useState, useRef, useReducer, useCallback } from "react";
 
 const mockData = [
   {
-    id: 1,
-    isDone: false,
-    content: "Learn Electron",
-    date: new Date().getTime(),
-  },
-  {
     id: 0,
     isDone: false,
     content: "Learn React",
