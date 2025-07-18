@@ -14,7 +14,7 @@ const mockData = [
   {
     id: 0,
     isDone: false,
-    content: "Sleep",
+    content: "Learn React",
     date: new Date().getTime(),
   },
 ];
